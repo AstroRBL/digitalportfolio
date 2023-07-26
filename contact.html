@@ -24,22 +24,18 @@
     <label for="navToggle" id="rotateButton">
         <img src="images/right-arrow.png" id="rotateImage">
     </label>
-    <div class="work">
-        <h1>My Work</h1>
-        <div class="project">
-            <div class="overlay">Notes App</div>
-            <button class="open-work" href="#"><img src="images/share.png"></button>
-            <a href="images/notes.png" target="_blank">
-                <img src="images/notes.png" alt="Notes">
-            </a>
-        </div>
-        <div class="project">
-            <div class="overlay">Quiz App</div>
-            <button class="open-work" href="#"><img src="images/share.png"></button>
-            <a href="images/quiz.png" target="_blank">
-                <img src="images/quiz.png" alt="Quiz">
-            </a>
-        </div>
+    <div class="contact" id="contactForm">
+        <h2>Contact Me</h2>
+        <form action="https://formsubmit.co/2nd.aimansuliman454@gmail.com" method="POST" />
+            <form>
+                <label class="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label class="description">Description:</label>
+                <textarea id="description" name="description" rows="4" required></textarea>
+        
+                <button type="submit">Submit</button>
+            </form>
     </div>
     <script src="index.js"></script>
 </body>
